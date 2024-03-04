@@ -1,0 +1,23 @@
+.navbar{
+    background-color: rgb(163, 46, 46);
+}
+.nav-link, .navbar-brand{
+    color: white !important;
+    
+}
+footer{
+    background-color: grey;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+.footer a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin-right: 20px;
+}

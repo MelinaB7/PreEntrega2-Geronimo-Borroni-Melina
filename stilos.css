@@ -64,7 +64,6 @@ h3 {
 }
 
 
-
 header{
 height: 60px;
 width: 100%;
@@ -75,8 +74,7 @@ background-color: rgb(255,255, 255);
 .barra ul li{
 
     font-family: 'Zilla Slab', serif;
-    display: inline-block;
-    float: right;
+    float: left;
     margin-top:20px;
     
 }
@@ -145,6 +143,8 @@ width: 25%;
     font-family: 'Zilla Slab', serif;
     color: rgb(109, 6, 29);
     width:70%; 
+    margin-left: 200px;
+    
 }
 #llamadaTelefonica {
     background-color:beige;
@@ -153,7 +153,8 @@ width: 25%;
     width:35%;
     height: 40px;
     display:inline-block;
-    border: 3px solid; 
+    border: 3px solid;
+    margin-left: 200px 
 
 }
 
@@ -165,6 +166,7 @@ width: 25%;
     height: 40px;
     display:inline-block;
     border: 3px solid;
+    margin-left: 200px
     
 }
 #redesSociales{
@@ -175,16 +177,21 @@ width: 25%;
     height: 40px;
     display:inline-block;
     border: 3px solid;
+    margin-left: 200px
     
 }
 #correoElectronico{
     background-color:beige;
     font-family: 'Zilla Slab', serif;
     color: rgb(109, 6, 29);
-    
+    width:35%;
+    height: 40px;
     display:inline-block;
     border: 3px solid;
+    margin-left: 200px
 
 }
-
-
+#parrafoDescripcion {
+    text-align: center;
+    background-color: antiquewhite;
+}

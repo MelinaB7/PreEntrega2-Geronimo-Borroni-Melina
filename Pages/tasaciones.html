@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
 <body>
-    <header>
-        <h1>SB Negocios Inmobiliarios</h1>
-  
+  <a href="https://wa.link/v9idjg" class="btn-wsp" target="_blank"> 
+    <i class="fab fa-whatsapp"></i>
+  </a>
         <nav class="navbar navbar-expand-md">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">SB Negocios Inmobiliarios</a>
@@ -28,7 +28,7 @@
                   <a class="nav-link" href="catalogo.html">Catalogo</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="tasaciones.html">Tazaciones</a>
+                  <a class="nav-link" href="tasaciones.html">Tasaciones</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="administraciones.html">Administraciones</a>
@@ -41,39 +41,45 @@
           </div>
         </nav>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        
-    </header>
-    <br>
-    <br>
-    <br>
-    <h2> Realiza una tazacion profesional</h1>
-    <br>
-    <p id="parrafoDescripcion">
-        <b> Complete el formulario para realizar una tazacion o vender </b>
-    </p>
-    <p id="parrafoDescripcion">Al completar este formulario, nos comunicaremos a la brevedad para brindarle mas informacion
-    </p>
-    <br>
-    <form action="/procesar-formulario" method="post">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <br>
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-            <br>
-            <label for="correo">Correo electrónico:</label>
-            <input type="email" id="correo" name="correo">
-            <br>
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion">
-            <br>
-            <label for="comentarios">Comentarios:</label>
-            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
-            <br>
-            <button type="submit">Enviar</button>
-        </form>
-    <br>
 
+    <img src="../Multimedia/tasacion.png" class="d-block w-100" style= "max-height: 400px";>
+    <div class="position-absolute top-0 start-0"></div>
+    
+
+
+    <div class= "container-fluid pt-4"> </div>
+    <div class="container">
+      <h1 class="text-center">Realiza una tazacion profesional</h1>
+      <div class="row"> 
+          <div class="col pt-1 text-center">
+            <p>Complete el formulario si esta interesado en realizar una tasación o vender
+              <br> Al completar este formulario, nos comunicaremos a la brevedad para brindarle mas información
+            </p></div>
+      </div>
+    </div>
+<br>
+  <form action="/procesar-formulario" method="post">
+    <div class="mb-3 mx-5 col-sm-6">
+      <label for="formGroupExampleInput" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" required>
+    </div>
+    <div class="mb-3 mx-5 col-sm-6">
+      <label for="formGroupExampleInput2" class="form-label">Telefono</label>
+      <input type="tel" class="form-control" id="formGroupExampleInput2" required>
+    </div>
+    <div class="mb-3 mx-5 col-sm-6" col-sm-6>
+      <label for="formGroupExampleInput" class="form-label">Correo electronico</label>
+      <input type="email" class="form-control" id="formGroupExampleInput" required>
+    </div>
+    <div class="mb-3 mx-5 col-sm-6">
+      <label for="formGroupExampleInput2" class="form-label">Comentarios</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2">
+    </div>
+    <div class="mb-3 mx-5 col-sm-12" id="boton">
+      <button type="submit" class="btn btn-primary"> Enviar </button>
+  </form>
+</div>
+  
     <footer class="footer">
         <div class="container-fluid">
           <div class="row">
